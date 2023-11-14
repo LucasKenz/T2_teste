@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Consulta de Coordenadas e Condições Atuais</title>
+</head>
+<body>
+  <h1>Consulta de Coordenadas e Condições Atuais de Cidade</h1>
+
+  <label for="cidadeInput">Nome da Cidade:</label>
+  <input type="text" id="cidadeInput" placeholder="Digite o nome da cidade">
+  <button id="consultarButton" onclick="obterCidade()">Consultar</button>
+
+  
+  <!-- <p></p>
+  <label for="latitudeOutput">Veja a latitude:</label>
+  <input type="text" id="latitudeOutput" readonly>
+  <p></p>
+  <label for="longitudeOutput">Veja a longitude:</label>
+  <input type="text" id="longitudeOutput" readonly> -->
+  <p>Latitude: <span id="latitudeOutput"></span></p>
+  <p>Longitude: <span id="longitudeOutput"></span></p>
+  
+  <p>Condições Atuais:</p>
+  <p>Sensação Térmica: <span id="sensacaoOutput"></span> °C</p>
+  <p>Descrição: <span id="descricaoOutput"></span></p>
+
+  <script src="./index.js"></script>
+  <!-- o axios estava sendo usado para teste, mas não está mais -->
+</body>
+</html>
