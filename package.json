@@ -1,5 +1,15 @@
 {
   "dependencies": {
     "axios": "^1.6.1"
-  }
+  },
+  "name": "t2_teste",
+  "description": "Grupo:\r Lucas Kenzo Murakami Tada 23.01221-8",
+  "version": "1.0.0",
+  "main": "index.js",
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC"
 }
