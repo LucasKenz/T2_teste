@@ -18,15 +18,6 @@ function obterCidade() {
         // para extrarir latitude e longitude
         const latitude = data[0].lat;
         const longitude = data[0].lon;
-
-        // as linha a baixo foram colocadas para comparação, deixei elas para poder estudar depois, por favor ignores elas
-        // para poder pegar no html e exibir
-        // const latitudeOutput = document.getElementById("latitudeOutput");
-        // const longitudeOutput = document.getElementById("longitudeOutput");
-
-        // subtituindo os valores pelos obtidos
-        // latitudeOutput.value = `Latitude: ${latitude}`;
-        // longitudeOutput.value = `Longitude: ${longitude}`;
         
         //mudando o conteúdo dos textos
         document.getElementById("latitudeOutput").textContent = latitude;
